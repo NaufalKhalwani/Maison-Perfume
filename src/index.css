@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, Cambria, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-surface: #131314;
+  --color-surface-dim: #131314;
+  --color-surface-bright: #3a393a;
+  --color-surface-container-lowest: #0e0e0f;
+  --color-surface-container-low: #1c1b1c;
+  --color-surface-container: #201f20;
+  --color-surface-container-high: #2a2a2b;
+  --color-surface-container-highest: #353436;
+
+  --color-on-surface: #e5e2e3;
+  --color-on-surface-variant: #d0c5af;
+  --color-outline: #99907c;
+  --color-outline-variant: #4d4635;
+
+  --color-primary: #f2ca50;
+  --color-on-primary: #3c2f00;
+  --color-primary-container: #d4af37;
+  --color-on-primary-container: #554300;
+  --color-primary-fixed: #ffe088;
+  --color-primary-fixed-dim: #e9c349;
+
+  --color-secondary: #e4c277;
+  --color-on-secondary: #3f2e00;
+  --color-secondary-container: #5d4604;
+  --color-secondary-fixed: #ffdf9b;
+  --color-secondary-fixed-dim: #e4c277;
+
+  --color-tertiary: #d3cec5;
+  --color-on-tertiary: #32302a;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #131314;
+    color: #e5e2e3;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom gold shimmer and glow utilities */
+.glow-gold {
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+}
+
+.glow-gold-hover:hover {
+  box-shadow: 0 0 40px rgba(212, 175, 55, 0.3);
+}
+
+/* Typography shortcuts */
+.font-headline-lg {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.2;
+}
+
+.font-headline-md {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  line-height: 1.3;
+}
+
+.font-headline-sm {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.font-display-hero {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.font-label-caps {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}

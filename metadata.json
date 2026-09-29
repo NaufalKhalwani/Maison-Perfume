@@ -1,0 +1,6 @@
+{
+  "name": "Maison d'Aura - Haute Parfumerie Paris",
+  "description": "Artisanal Extraits de Parfum and bespoke private salon olfactory ceremonies from Paris and Grasse.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

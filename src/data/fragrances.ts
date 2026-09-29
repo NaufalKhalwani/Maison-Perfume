@@ -1,0 +1,271 @@
+import { Fragrance, Terroir } from '../types';
+
+export const FRAGRANCES: Fragrance[] = [
+  {
+    id: 'aurum-noctis',
+    number: 'No. 01',
+    name: 'Aurum Noctis',
+    family: 'No. 01 • Oriental Ambré',
+    category: 'oriental',
+    tier: 'Extrait',
+    concentration: '38% Ekstrak Murni',
+    rating: 4.97,
+    price: 420,
+    badge: 'Formula Ikonik',
+    volume: '100ml / 3.4 FL. OZ.',
+    description: 'Mawar Damaskus mekar malam yang anggun, dibalut getah ambar emas hangat, jamur truffle hitam Périgord langka, dan gaharu liar Kamboja berusia 25 tahun yang berasap lembut.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDwQgrFLJFWH5BvFf_MdU6sDq3Sgcny4YHuQJlpQhtmirrnDnm_1rgBXVeXerK4CEX44IhQLyWco47GtD_JhRBLAs6Ga4_FSfjfr5icWLMnaoRBp-YPNdLclS7A0MT-0CD66eXYkPOL5roIul5xGSD_bTFktv29Rdgg1TRseCUtzeB0VV29KhVKEQlOIH-3hSCP5MFEuZYr1DU1nfx-_aijZUn_ltMy3OpgYH27QuHdFwYHE-K96J0',
+    longevity: '14+ Jam',
+    preorderBatch: 'Tersisa 42/150 Botol Bernomor',
+    notes: {
+      top: 'Saffron Persia & Jeruk Darah',
+      heart: 'Mawar Hitam Turki & Kemenyan Frankincense',
+      base: 'Gaharu Berasap & Ambar Emas Murni',
+      topDesc: 'Kilauan rempah segar saat pertama disemprot',
+      heartDesc: 'Inti bunga mawar beludru yang pekat dan hangat',
+      baseDesc: 'Jejak aroma kayu gaharu yang bertahan lebih dari 24 jam'
+    },
+    accords: [
+      { name: 'Gaharu Berasap', percentage: 45, color: '#f2ca50' },
+      { name: 'Mawar Turki', percentage: 30, color: '#e4c277' },
+      { name: 'Ambar Emas', percentage: 25, color: '#e9c349' }
+    ],
+    sourceOrigin: 'Reservasi Khusus • Grasse & Siem Reap',
+    sillage: 'Enveloping',
+    season: 'Malam Kemewahan',
+    affinityTag: 'Beludru Rembulan'
+  },
+  {
+    id: 'santal-imperial',
+    number: 'No. 02',
+    name: 'Santal Impérial',
+    family: 'No. 02 • Boisé Noble',
+    category: 'boise',
+    tier: 'Extrait',
+    concentration: '32% Ekstrak Murni',
+    rating: 4.92,
+    price: 385,
+    badge: 'Koleksi Langka',
+    volume: '100ml / 3.4 FL. OZ.',
+    description: 'Inti kayu cendana murni Mysore India yang disuling lambat dengan uap alami, diperkaya biji kapulaga hijau sangrai dan sentuhan vanila Bourbon Madagaskar yang lembut memikat.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA4cEfKlumfyWzjjolUU5GG-VzTuslMC2m1H2bCPnkbboF7WDZLQvqwpnNuECcgNOJkcnbcwXtsGEVjc2__pJCowTovAfRGQh88Pv8GnNaDsbGn552lZ5_2mUV_EoH3EJyt0V39x4Etgw2RnA7CV9eezO-pj8vJ9B8xe7ef__s6vbsWlPO3QBdEhANWtR9qONhkSfam_0PTjV1R_yKexhDo2A2kC5O865hmQqKSOLpEqIKzk_Mop48',
+    longevity: '12+ Jam',
+    preorderBatch: 'Kayu Cendana Konservasi Karnataka',
+    notes: {
+      top: 'Kapulaga Hijau & Bergamot Italia',
+      heart: 'Mentega Orris Florentina & Daun Violet',
+      base: 'Kayu Cendana Mysore & Cedar Virginia',
+      topDesc: 'Aroma sitrus pedas berenergi',
+      heartDesc: 'Tekstur iris lembut bagaikan mentega aristokrat',
+      baseDesc: 'Asap kayu hangat yang tenang dan menenangkan'
+    },
+    accords: [
+      { name: 'Cendana Mysore', percentage: 55, color: '#e4c277' },
+      { name: 'Akar Orris', percentage: 25, color: '#f2ca50' },
+      { name: 'Kapulaga Hijau', percentage: 20, color: '#cac6bd' }
+    ],
+    sourceOrigin: 'Karnataka, India • Batang Pohon 25 Tahun',
+    sillage: 'Enveloping',
+    season: 'Peralihan Musim',
+    affinityTag: 'Perpustakaan Antik'
+  },
+  {
+    id: 'rose-de-mai',
+    number: 'No. 03',
+    name: 'Rose de Mai Éthérée',
+    family: 'No. 03 • Floral Pur',
+    category: 'floral',
+    tier: 'Extrait',
+    concentration: '35% Ekstrak Murni',
+    rating: 4.89,
+    price: 410,
+    badge: 'Panen Grasse 2024',
+    volume: '100ml / 3.4 FL. OZ.',
+    description: 'Lebih dari sepuluh ribu kelopak mawar Centifolia yang dipetik dengan tangan tepat saat fajar merekah di Grasse, berpadu lada merah muda segar dan kasturi putih sutra.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCRsjRVeYETAcUDI3Xcmt3vkQBQo_d2V2DF9IfG0kddbSlI2_ITh-smOW-qMtvebiEyGDtzXh82mLzySNoZfpDWrjCjBmBWSMECxVJ7XraJ3pEZj00gHjxVq_A7xutCBeYGSS2xOvUy_fU4P7vqXZTRfQl6G_OkwYMvzY4tisjJ899DB1dklYnNdYlwM1WewQLAbQ_HypieYm6FAvdLtzGdiRbpatMuq4mtpiVEISBzba00hJpiq1A',
+    longevity: '10+ Jam',
+    preorderBatch: 'Petikan Tangan Fajar Mei',
+    notes: {
+      top: 'Lada Merah Muda & Embun Fajar',
+      heart: 'Mawar Centifolia Grasse Murni',
+      base: 'Kasturi Sutra & Kemenyan Benzoin Putih',
+      topDesc: 'Embun kristal pagi yang segar berkilau',
+      heartDesc: 'Kelopak bunga mawar padat dan ranum',
+      baseDesc: 'Kehangatan kulit kedua yang sensual'
+    },
+    accords: [
+      { name: 'Centifolia Absolu', percentage: 60, color: '#f2ca50' },
+      { name: 'Ambar Putih', percentage: 25, color: '#e4c277' },
+      { name: 'Lada Merah Muda', percentage: 15, color: '#e9c349' }
+    ],
+    sourceOrigin: 'Domaine Saint-Clément, Grasse, Prancis',
+    sillage: 'Intimate',
+    season: 'Fajar Musim Semi',
+    affinityTag: 'Taman Berkilau'
+  },
+  {
+    id: 'iris-souverain',
+    number: 'No. 04',
+    name: 'Iris Souverain',
+    family: 'No. 04 • Poudré Somptueux',
+    category: 'floral',
+    tier: 'Absolu Élixir',
+    concentration: '34% Ekstrak Murni',
+    rating: 4.95,
+    price: 460,
+    badge: 'Iris Pallida Langka',
+    volume: '100ml / 3.4 FL. OZ.',
+    description: 'Mentega akar orris Florence yang nilainya dua kali lebih berharga dari emas murni, disatukan dengan daun violet segar berembun dan akar vetiver Haiti berasap tanah.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCORdThVuItPvsynQ3huG9iK9Gra6pbFMXZPLSMxhqJVuJvkI-yQtQS5NpPrp_0dCKH216mnWfdtXszye339xTP7wdA9XZ_ggW-HWGeU_Qy1PWTFjtFBE-EUt3CGHKwh2fG1URJJmTxL8CS1T1PKFTwcvNZ3U24-s7Z79zKZ-CeWf2w9AMWqN9-WjE4fVT0D8Hu095mWeLPK4nRT36Q9RVynAR-TKyy2Tph2X_e2plEXUEe4Vrh3Pc',
+    longevity: '11+ Jam',
+    preorderBatch: 'Pematangan Bawah Tanah 6 Tahun',
+    notes: {
+      top: 'Daun Violet & Biji Angelica',
+      heart: 'Mentega Orris Pallida Florence',
+      base: 'Vetiver Haiti & Kayu Cedar Kuno',
+      topDesc: 'Kesegaran daun violet hijau yang dihancurkan',
+      heartDesc: 'Serbuk iris ningrat sehalus mentega sutra',
+      baseDesc: 'Kedalaman akar tanah yang kaya dan berwibawa'
+    },
+    accords: [
+      { name: 'Iris Konkret', percentage: 50, color: '#f2ca50' },
+      { name: 'Vetiver Berasap', percentage: 30, color: '#e4c277' },
+      { name: 'Daun Violet', percentage: 20, color: '#cac6bd' }
+    ],
+    sourceOrigin: 'Teras Perbukitan Chianti, Toskana, Italia',
+    sillage: 'Luminous',
+    season: 'Kesejukan Anggun',
+    affinityTag: 'Beludru Rembulan'
+  },
+  {
+    id: 'cuir-majestueux',
+    number: 'No. 05',
+    name: 'Cuir Majestueux',
+    family: 'No. 05 • Cuir Fumé',
+    category: 'boise',
+    tier: 'Extrait',
+    concentration: '36% Ekstrak Murni',
+    rating: 4.91,
+    price: 440,
+    badge: 'Kulit Hewani Asap',
+    volume: '100ml / 3.4 FL. OZ.',
+    description: 'Paduan megah kulit pelana antik jahitan tangan, getah pohon birch Rusia berasap, putik kunyit merah kering, dan getah labdanum Spanyol yang membara hangat.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuApWMbHJbbid6hysSxFBOglBptbp2qOOsZDwYPnL1vJRxX_xwzsguY2ENikzAGQEDThnKkd6XUzmVX_6FiSeiRla8Ml11xWu7tm7mYTyi01jFrPyUA5tSmpvisOSmTAgb84UUfOeqM9WmMCffEEVlAn9idybXJhFzCUHUTy66xm53VmVy9SmMg1-xyHUSOo0pSBqCDGp1e6m1CVmJENK_TH9lYdUcgdYXWvxWC0J-txKYX6-nr0juU',
+    longevity: '16+ Jam',
+    preorderBatch: 'Minyak Kade & Ter Kayu Tua',
+    notes: {
+      top: 'Saffron Persia & Timi Liar',
+      heart: 'Kayu Birch Berasap & Getah Labdanum',
+      base: 'Cistus Spanyol & Kulit Pelana Mentah',
+      topDesc: 'Aroma rempah kunyit emas yang tajam berani',
+      heartDesc: 'Bara kayu tungku perapian istana abad pertengahan',
+      baseDesc: 'Kulit pelana antik yang mewah dan maskulin'
+    },
+    accords: [
+      { name: 'Ter Birch Rusia', percentage: 48, color: '#f2ca50' },
+      { name: 'Cistus Spanyol', percentage: 32, color: '#e4c277' },
+      { name: 'Saffron Persia', percentage: 20, color: '#d5b46b' }
+    ],
+    sourceOrigin: 'Bengkel Artisan • Kordoba & Grasse',
+    sillage: 'Monumental',
+    season: 'Malam Musim Dingin',
+    affinityTag: 'Perpustakaan Antik'
+  },
+  {
+    id: 'neroli-lumiere',
+    number: 'No. 06',
+    name: 'Néroli Lumière',
+    family: 'No. 06 • Hespéridé Solaire',
+    category: 'fresh',
+    tier: 'Extrait',
+    concentration: '30% Ekstrak Murni',
+    rating: 4.88,
+    price: 360,
+    badge: 'Ekstraksi Mentari',
+    volume: '100ml / 3.4 FL. OZ.',
+    description: 'Pohon jeruk Mediterania yang mekar sempurna di bawah sinar mentari, bergamot perasan dingin, diimbangi aroma asin mineral ambergis perak samudra lepas.',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDSVh0J0MNI0y8GQI-tCzHGHQNiNDhBvmWmWLJ9n4CgAdBmK7oHA4D-fJ-ACdyc8ENq5l2YG-Wi761dIbk8RpPYfkoYpr1_olk5EVFzZA7S3indvq9K3fAu7S4G1uxEI9-Qs_KxZdZL4baRHj02xFKgD0bionqLg_2ccbaZDRG_sqYyDmdTgusN62A3fUz1BSwPE65KrwogZKbOr1Dk8R0kPQZV7wlhrOTsvQSsQIk5QQril_8AN1c',
+    longevity: '9+ Jam',
+    preorderBatch: 'Hasil Panen Cap Bon, Nabeul',
+    notes: {
+      top: 'Kulit Jeruk Calabria & Petitgrain',
+      heart: 'Kelopak Neroli & Bunga Jeruk Putih',
+      base: 'Ambergris Abu-Abu & Kayu Cedar Mentari',
+      topDesc: 'Kulit jeruk segar renyah bermandikan matahari',
+      heartDesc: 'Bunga putih beraroma madu manis alami',
+      baseDesc: 'Hembusan angin laut mineral yang bersih'
+    },
+    accords: [
+      { name: 'Kelopak Neroli', percentage: 52, color: '#f2ca50' },
+      { name: 'Bergamot Calabria', percentage: 28, color: '#e4c277' },
+      { name: 'Ambergris Perak', percentage: 20, color: '#cac6bd' }
+    ],
+    sourceOrigin: 'Cap Bon, Tunisia & Calabria, Italia',
+    sillage: 'Luminous',
+    season: 'Puncak Musim Panas',
+    affinityTag: 'Fajar Samudra'
+  }
+];
+
+export const TERROIRS: Record<string, Terroir> = {
+  grasse: {
+    id: 'grasse',
+    name: 'Mawar Centifolia (Rose de Mai)',
+    botanical: 'Rosa × centifolia L.',
+    location: 'Grasse, Prancis',
+    coords: '43.6602° U, 6.9263° T',
+    description: 'Dipetik sepenuhnya dengan tangan antara pukul 05.30 hingga 08.45 pagi sebelum sinar matahari Mediterania menguapkan molekul fenil etil alkohol yang rapuh. Dibutuhkan 4.000 kg kelopak segar untuk menghasilkan 1 kg ekstrak murni.',
+    badges: ['PANEN BULAN MEI', 'EKSTRAKSI DINGIN'],
+    chartTitle: 'Kepadatan Hidrokarbon Centifolia',
+    batch: 'Batch #904-GRA',
+    metric1: { label: 'KEMURNIAN GERANIOL', value: '68.4% Murni' },
+    metric2: { label: 'SUHU EKSTRAKSI', value: '18.5°C Alami' },
+    metric3: { label: 'MASA PEMATANGAN', value: '180 Hari' },
+    mapCoords: 'LINTANG: 43.66° U | BUJUR: 6.92° T'
+  },
+  florence: {
+    id: 'florence',
+    name: 'Iris Pallida Florentina',
+    botanical: 'Iris pallida Lam.',
+    location: 'Firenze, Italia',
+    coords: '43.7696° U, 11.2558° T',
+    description: 'Rimpang akar iris disimpan di ruang bawah tanah dalam kegelapan dan kelembapan terkontrol selama 36 bulan untuk mengubah asam miristat menjadi kristal irone. Minyak mentega botani paling berharga di dunia parfum mewah.',
+    badges: ['PENYIMPANAN 3 TAHUN', 'DISTILASI UAP'],
+    chartTitle: 'Massa Molekul Irone Iris Pallida',
+    batch: 'Batch #512-FLO',
+    metric1: { label: 'KONSENTRASI IRONE', value: '91.2% Kandungan Irone' },
+    metric2: { label: 'SUHU RUANG BAWAH TANAH', value: '14.0°C Konstan' },
+    metric3: { label: 'PEMATANGAN BAWAH TANAH', value: '36 Bulan' },
+    mapCoords: 'LINTANG: 43.77° U | BUJUR: 11.26° T'
+  },
+  cambodia: {
+    id: 'cambodia',
+    name: 'Gaharu Liar Cagar Alam (Oud)',
+    botanical: 'Aquilaria crassna Pierre',
+    location: 'Koh Kong, Kamboja',
+    coords: '11.6153° U, 103.0101° T',
+    description: 'Dihasilkan secara lestari di cagar hutan terlindungi berusia 40 tahun. Inokulasi simbiotik jamur alami menghasilkan getah kayu inti yang padat tanpa bahan kimia buatan atau penebangan liar.',
+    badges: ['SERTIFIKASI CITES', 'POHON 40 TAHUN'],
+    chartTitle: 'Seskuiterpen Aquilaria Crassna',
+    batch: 'Batch #881-CAM',
+    metric1: { label: 'KEMURNIAN GETAH', value: '84.7% Getah Murni' },
+    metric2: { label: 'MIKROKLIMAT HUTAN', value: '26.0°C Terkendali' },
+    metric3: { label: 'USIA KANOPI POHON', value: '40 Tahun' },
+    mapCoords: 'LINTANG: 11.62° U | BUJUR: 103.01° T'
+  },
+  madagascar: {
+    id: 'madagascar',
+    name: 'Biji Vanila Bourbon Liar',
+    botanical: 'Vanilla planifolia Jacks. ex Andrews',
+    location: 'Wilayah Sava, Madagaskar',
+    coords: '14.2667° S, 50.1667° T',
+    description: 'Diserbuki satu per satu dengan jarum bambu di pagi buta. Dimatangkan selama tujuh bulan melalui proses pengeringan bertahap dalam kain goni tradisional untuk melepas rasa manis balsamik murni.',
+    badges: ['EKSTRAKSI CO2 SUPERKRITIS', 'PANEN ADIL LESTARI'],
+    chartTitle: 'Keseimbangan Glukovanalin Alami',
+    batch: 'Batch #320-MAD',
+    metric1: { label: 'VANILIN ALAMI', value: '3.2% Vanilin Asli' },
+    metric2: { label: 'SUHU PENGERINGAN SURYA', value: '32.0°C Hangat Surya' },
+    metric3: { label: 'SIKLUS PEMATANGAN', value: '210 Hari' },
+    mapCoords: 'LINTANG: 14.27° S | BUJUR: 50.17° T'
+  }
+};
